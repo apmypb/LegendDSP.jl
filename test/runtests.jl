@@ -7,6 +7,7 @@ Test.@testset "Package LegendDSP" begin
     include("test_haar_filter.jl")
     # include("test_SOMETHING.jl")
     include("test_multiintersect.jl")
+    include("test_moving_window.jl")
     include("test_docs.jl")
     isempty(Test.detect_ambiguities(LegendDSP))
 end # testset
